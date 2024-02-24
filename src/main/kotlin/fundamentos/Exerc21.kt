@@ -13,8 +13,8 @@ inline fun transacao(funcao: () -> Unit){
     finally{
         println("Fechando transação")
     }
-
 }
+
 
 fun main(args: Array<String>){
 

@@ -2,6 +2,8 @@ package fundamentos
 
 //Break com label - matrix
 
+// * Fun fact: é um ótimo jeito de mostrar a tabuada.
+
 fun main(args: Array<String>){
 
     loop@for (i in 1..15){

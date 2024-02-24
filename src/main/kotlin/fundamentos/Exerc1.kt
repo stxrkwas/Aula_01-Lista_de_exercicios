@@ -7,7 +7,7 @@ fun main(args: Array<String>){
     val num2: Short = 32767
     val num3: Int = 2_147_483_647
 
-    //Long.MAX_VALUE
+    //Variável do tipo long; o valor máximo dessa variável foi atribuido a ela;
     val num4: Long = 9_223_372_036_854_775_807
 
     //Tipos numéricos reais
@@ -25,7 +25,7 @@ fun main(args: Array<String>){
     println(2147483648 is Long)
     println(1.0 is Double)
 
-    //Tudo é objeto
+    //A função "dec()" decrementa o valor de um número em uma unidade, ou seja, a função "println()" imprimirá o valor 9
     println(10.dec())
 
 }
